@@ -17,4 +17,5 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }// belah belah
     // Pride Forever
+    //jaja susanne
 }
