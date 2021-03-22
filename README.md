@@ -1,5 +1,6 @@
 # StuJobs
 Produktbeskrivning
+
 ● En applikation av studenter för studenter.
 ● För att skapa studentkonto behövs studieförsäkran.
 ● En möjlighet för studenter som vill tjäna extra pengar genom korta
