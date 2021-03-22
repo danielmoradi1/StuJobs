@@ -12,4 +12,3 @@ som t.ex. Cv, personligt brev, beskrivning av arbetsuppgifter.
 ● Ska finnas ett ratingsystem där man kan ge betyg till arbetsgivare
 och arbetstagare man varit i kontakt med, för ökad trygghet från
 båda håll.
-BELABELAÄRDBRA? Eller är det inte bra?
