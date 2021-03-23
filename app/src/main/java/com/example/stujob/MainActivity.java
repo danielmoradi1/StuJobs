@@ -14,9 +14,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }// belah belah
-    // Pride Forever
-    //jaja susanne
-    // Hola Amigo
+        setContentView(R.layout.activity_register);
+    }
 }
