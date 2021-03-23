@@ -144,7 +144,34 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="67dp"
+        android:orientation="horizontal"
+        android:gravity="center"
         android:background="@color/cardview_dark_background">
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/menu_icon"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/heart_icon"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/house_icon"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/view_details_icon"/>
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="45dp"
+            android:background="@drawable/profile_icon"/>
 
     </LinearLayout>
 
