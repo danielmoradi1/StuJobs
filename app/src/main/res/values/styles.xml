@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+                <!-- Weronika Sleboda -->
+
+    <style name="StuJobTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize the theme -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- (VIKTIGT!)
+    * Överskuggar android temat i syfte att sätta upp toolbaren
+    * Måste finnas med. Annars funkar inte toolbaren. -->
+</resources>

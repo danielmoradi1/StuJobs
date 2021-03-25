@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">StuJob</string>
+
+    <!-- Weronika Sleboda -->
+    <string name="menu_action">Menu</string>
+    <string name="heart_action">Gilla</string>
+    <string name="home_action">Hem</string>
+    <string name="details_action">Detaljer</string>
+    <string name="profile_action">Profil</string>
+    <string name="user_name">User Name</string>
+    <string name="edit_profile">Edit Profile</string>
+    
+    <string name="change_picture">Change Picture</string>
+    <string name="change_first_name">Change First Name</string>
+    <string name="change_last_name">Change Last Name</string>
+    <string name="change_address">Change Address</string>
+    <string name="change_phone_number">Change Phone Number</string>
+    <string name="change_certificate">Change Certificate</string>
+    <string name="save">Save</string>
+    <!-- Här slutar min kod -->
+
+</resources>

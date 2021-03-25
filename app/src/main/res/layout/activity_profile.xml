@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+            <!-- Weronika Sleboda -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileActivity">
+
+    <include
+        layout="@layout/top_toolbar"
+        android:id="@+id/top_toolbar"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/profile_icon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:text="@string/user_name"/>
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/change_picture"
+        android:onClick="changePicture"/>
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/change_first_name"/>
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/change_last_name"/>
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/change_address" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/change_phone_number"/>
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/change_certificate"/>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/save"
+        android:onClick="save"/>
+
+    <include
+        layout="@layout/bottom_toolbar"
+        android:id="@+id/bottom_toolbar"/>
+
+</LinearLayout>
