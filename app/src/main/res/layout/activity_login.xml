@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    android:padding="40dp"
+    tools:context=".Login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/login"
+        android:layout_marginTop="80dp"
+        >
+    </ImageView>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="18sp"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        android:layout_marginTop="30dp"
+       >
+    </com.google.android.material.textfield.TextInputEditText>
+
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="18sp"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="true"
+        android:layout_marginTop="15dp"
+        >
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <Switch
+        android:id="@+id/create_switch"
+        android:layout_width="291dp"
+        android:layout_height="wrap_content"
+        android:selectAllOnFocus="true"
+        android:text="Remember me"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/cardview_dark_background"></Switch>
+
+    <Button
+        android:id="@+id/Login_bottom"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Sing in"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="200dp"
+        android:background="@drawable/button"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="18dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_horizontal"
+        >
+    </Button>
+
+</LinearLayout>
