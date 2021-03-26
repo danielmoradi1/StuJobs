@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StuJob">
+
         <activity android:name=".Register"></activity>
+        <activity android:name=".Login"></activity>
+
         <activity android:name=".HomeGUI" />
         <activity android:name=".MainActivity">
             <intent-filter>
