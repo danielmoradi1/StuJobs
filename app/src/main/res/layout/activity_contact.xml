@@ -288,5 +288,44 @@
         tools:layout_editor_absoluteY="650dp">
     </LinearLayout>
 
+    <ImageView
+        android:layout_width="43dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/sahand1"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <ImageView
+        android:layout_width="42dp"
+        android:layout_height="41dp"
+        app:srcCompat="@drawable/moana_contact"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="415dp" />
+
+    <ImageView
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        app:srcCompat="@drawable/daniel"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <ImageView
+        android:layout_width="39dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/annie_bil"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <ImageView
+        android:layout_width="51dp"
+        android:layout_height="53dp"
+        app:srcCompat="@drawable/susanne_ra"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="206dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
