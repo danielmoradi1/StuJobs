@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contract">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="430dp"
+        android:layout_height="87dp"
+        android:background="@color/cardview_dark_background"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-14dp"
+        tools:layout_editor_absoluteY="-7dp" />
+
+    <TextView
+        android:layout_width="245dp"
+        android:layout_height="53dp"
+        android:text="Contract format"
+        android:textColor="#F8F8F8"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <ImageButton
+        android:layout_width="38dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:background="@drawable/abc_vector_test"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <LinearLayout
+        android:layout_width="456dp"
+        android:layout_height="86dp"
+        android:background="@color/cardview_dark_background"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-18dp"
+        tools:layout_editor_absoluteY="650dp">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="357dp"
+        android:layout_height="242dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="113dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Document 1"
+            android:textColor="#0B0909"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:text="Information about contract................................................................" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            tools:ignore="MissingConstraints">
+
+            <Button
+
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/white"
+                android:text="Read More"
+                android:textColor="#7BA6AC"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="65dp"
+                tools:layout_editor_absoluteY="463dp"/>
+
+            <Button
+                android:layout_width="269dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@android:color/white"
+                android:text="Download"
+                android:textColor="#7BA6AC"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="65dp"
+                tools:layout_editor_absoluteY="463dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="357dp"
+        android:layout_height="241dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="374dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Document 2"
+            android:textColor="#0B0909"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="135dp"
+            android:text="Information about contract................................................................" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            tools:ignore="MissingConstraints">
+
+            <Button
+
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/white"
+                android:text="Read More"
+                android:textColor="#7BA6AC"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="65dp"
+                tools:layout_editor_absoluteY="463dp"/>
+
+            <Button
+                android:layout_width="269dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/white"
+                android:text="Download"
+                android:textColor="#7BA6AC"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="65dp"
+                tools:layout_editor_absoluteY="463dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,16 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-/**
- * @author Daniel Moradi
- * Här skrivs javakoden för logiken.
- */
-
-public class MainActivity extends AppCompatActivity {
+public class AnnieTest extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_contact);
+        setContentView(R.layout.activity_annie_test);
     }
 }

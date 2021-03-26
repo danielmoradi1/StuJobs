@@ -9,7 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.StuJob">
+
         <activity android:name=".Register"></activity>
+
+        <activity android:name=".Contract">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Contact_us">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity android:name=".HomeGUI" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -21,3 +39,6 @@
     </application>
 
 </manifest>
+
+
+
