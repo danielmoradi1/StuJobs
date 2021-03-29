@@ -59,7 +59,7 @@
         android:text="Sing in"
         android:textSize="18dp"
         android:textColor="#FFFFFF"
-        android:background="@drawable/button"
+        android:backgroundTint="@color/cardview_dark_background"
         android:layout_marginTop="15dp"
         android:layout_gravity="center_horizontal"
         >
@@ -68,7 +68,7 @@
     <Button
         android:id="@+id/register"
         android:layout_width="200dp"
-        android:background="@drawable/button"
+        android:backgroundTint="@color/cardview_dark_background"
         android:layout_height="wrap_content"
         android:text="Register"
         android:textSize="18dp"
