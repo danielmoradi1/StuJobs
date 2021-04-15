@@ -126,6 +126,7 @@
             android:layout_height="135dp"
             android:text="Information about contract................................................................" />
 
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -158,6 +159,7 @@
                 tools:layout_editor_absoluteX="65dp"
                 tools:layout_editor_absoluteY="463dp"/>
         </LinearLayout>
+        '-->
 
 
     </LinearLayout>
