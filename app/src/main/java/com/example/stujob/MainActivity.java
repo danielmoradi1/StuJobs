@@ -46,6 +46,15 @@ public class MainActivity extends AppCompatActivity {
                     break;
 
                 case R.id.contact:
+                    selectedfragment = new Contact_us();
+                    break;
+
+                case R.id.contract:
+                    selectedfragment = new Contract();
+                    break;
+
+                case R.id.register:
+                    selectedfragment = new Register();
                     break;
 
             }
